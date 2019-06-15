@@ -43,11 +43,11 @@ namespace pvm
         std::cout<<"AAA";
         nProc = pvm_spawn(SLAVENAME, NULL, PvmTaskDefault, "", slavenum, tids);
         myTid = pvm_mytid();
-        //if(slavenum > nProc) 
-         //   slavenum = nProc;  
+        if(slavenum > nProc) 
+          slavenum = nProc;  
 
         int tries = 0;
-        /*while(tries < 27)
+        while(tries < 27)
         {
         for(int i = 0; i < slavenum; i++)
         {
@@ -75,7 +75,7 @@ namespace pvm
                 return password;
             }
         }
-        }*/
+        }
         std::string beg;
         std::string end;
         beg += static_cast<char>(105);
