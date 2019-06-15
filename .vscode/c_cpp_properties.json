@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/include/gtk-3.0/",
+                "/usr/include/glib-2.0",
+                "/home/student/Dokumenty/projekt_pvm",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include/",
+                "/usr/include/pango-1.0/",
+                "/usr/include/gtk-3.0/gdk/",
+                "/usr/include/cairo/",
+                "/usr/include/gdk-pixbuf-2.0/",
+                "/usr/include/atk-1.0/",
+                "/usr/include/gtk-3.0"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc-7",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
